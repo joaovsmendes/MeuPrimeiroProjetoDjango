@@ -6,7 +6,7 @@ class Departamento(models.Model):
     def __str__ (self):
         return self.nome
 
-# Create your models here.
+# Crie seus modelos aqui.
 class Funcionario (models.Model):
 
     CARGO = [
